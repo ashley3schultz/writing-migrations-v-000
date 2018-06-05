@@ -3,7 +3,7 @@ class CreateStudents < ActiveRecord::Migration[5.1]
     create_table :students do |t|
       t.string :title
       t.date :release_date
-      t.sting :director
+      t.string :director
       t.string :lead
       t.datetime :in_theaters
       end
